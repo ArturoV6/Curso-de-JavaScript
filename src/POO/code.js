@@ -1,10 +1,12 @@
 class perro {
     constructor(color, edad, raza){
+        //atributos
         this.color = color;
         this.edad = edad;
         this.raza = raza;
         this.info = console.log(`Mi color es ${this.color} tengo ${this.edad} años y mi raza es ${this.raza}`)
     }
+    //metodos
     static ladrar(){
         console.log("waw")
     }
@@ -39,12 +41,16 @@ class perro11 {
         this.raza = null;
         this.info = console.log(`Mi color es ${this.color} tengo ${this.edad} años y mi raza es ${this.raza}`)
     }
+    //metodos estaticos son los que no interactuan con los atributos
     static ladrar(){
         console.log("waw")
     }
+    //accesores
+    //set es para definir atributos
     set modificar(name){
         this.raza = name
     }
+    //get es para agarrar atributos
     get getRaza(){
         return this.raza;
     }
