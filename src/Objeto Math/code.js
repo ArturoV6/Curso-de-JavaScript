@@ -52,3 +52,4 @@ console.log(numero6);
 let numero7 = Math.trunc(9.4);
 
 console.log(numero7);
+
