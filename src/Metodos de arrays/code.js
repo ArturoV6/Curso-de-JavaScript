@@ -56,7 +56,7 @@ console.log(abecedarioOrdenado);
 
 let infoEconomica = ["100$", "$500", "$900", "$300"];
 
-//elimina la informacion de la posicion declarada pero tambien la informacion tambien se puede agregar
+//elimina la informacion de la posicion declarada pero tambien la informacion se puede agregar
 let economiInfo = infoEconomica.splice(0, 3);
 //empieza en 0 termina en 3 y elimina lo restante
 console.log(economiInfo);
