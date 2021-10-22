@@ -1,14 +1,14 @@
-const obtenerInfo = (materia) =>{
+function obtenerInfo(materia) {
     materias = {
-        español: [ "Dalto", " pedro",  " fulano", " maria", " roberto", " fulana"],
-        matematicas: ["Dalto", " pedro", " juana", " fulano", " maria", ],
-        fisica: [ "Dalto", " juana", " fulana", " maria", " roberto", " fulana"],
-        biologia: [ "Dalto", " pedro", " juana",  " roberto", " fulana"]
-    }
+        español: ["Dalto", " pedro", " fulano", " maria", " roberto", " fulana"],
+        matematicas: ["Dalto", " pedro", " juana", " fulano", " maria",],
+        fisica: ["Dalto", " juana", " fulana", " maria", " roberto", " fulana"],
+        biologia: ["Dalto", " pedro", " juana", " roberto", " fulana"]
+    };
     if (materias[materia] !== undefined) {
-        return [materias[materia],materia];
-    }else if (materias[materia] == undefined) {
-        return false
+        return [materias[materia], materia];
+    } else if (materias[materia] == undefined) {
+        return false;
     }
 }
 
