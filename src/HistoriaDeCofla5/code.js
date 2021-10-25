@@ -1,5 +1,10 @@
+const a = 4;
+const b = 40;
+const c = 25;
+
+
 const materias = {
-    fisica: [4, 40, 25],
+    fisica: [a, b, c],
     biologia: [7, 34, 37],
     español: [2, 14, 37]
 };
@@ -26,4 +31,4 @@ const aprobar = () =>{
     }
 }
 
-aprobar();
+aprobar(); 
